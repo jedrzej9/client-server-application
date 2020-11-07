@@ -5,3 +5,5 @@ Console application that uses sockets.
 
 1. Run server script.
 2. Using terminal run client script. First parameter is file name, second server IP address and the third is socket number.
+
+![Image of Terminal](images/terminal.png)
