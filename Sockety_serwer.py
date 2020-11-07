@@ -4,16 +4,18 @@ import pickle
 import json
 from thread import *
 
+
 def writeToJSON(path, fileName, data):
     filePathName = './' + path + fileName + '.json'
     with open(filePathName, 'w') as fp:
         json.dump(data, fp)
 
-HOST = ''  # Symbolic name meaning all available interfaces
+
+HOST = '127.0.0.1'  # Symbolic name meaning all available interfaces
 PORT = 8888  # Arbitrary non-privileged port
 TASKS = []
 
-# Zapis do pliku JSON
+# Save to JSON file
 path = './'
 fileName = 'ToDoList'
 
