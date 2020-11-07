@@ -1,5 +1,5 @@
 # Console TO-DO list application
-Console application that uses sockets.
+Console application that uses sockets. List saves on Server in JSON file.
 
 ## How to run
 
