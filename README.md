@@ -1,4 +1,4 @@
-# Console To-Do list application
+# Console TO-DO list application
 Console application that uses sockets.
 
 ## How to run
